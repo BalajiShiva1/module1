@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - WebTech</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Add your additional styles here */
+        /* Contact Details and Photo Styling */
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 20px;
+        }
+
+        .contact-details {
+            flex: 1;
+            padding-right: 20px;
+        }
+
+        .profile-photo {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Responsive Styling */
+        @media (max-width: 768px) {
+            .content {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .contact-details {
+                padding: 0;
+                text-align: center;
+            }
+
+            .profile-photo {
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">WebTech</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="modern-trends.html">Modern Trends</a></li>
+                <li><a href="future.html">Future Predictions</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="content">
+        <div class="contact-details">
+            <h2>Contact </h2>
+            <h2>Balaji Koneti</h2>
+            <p>Nationality: Indian</p>
+            <p>Email: bk762@nau.edu</p>
+        </div>
+        <img src="photo.jpg" alt="Profile Photo" class="profile-photo">
+    </section>
+
+    <footer>
+        <p>© 2024 WebArch. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">Twitter</a>
+            <a href="#">Facebook</a>
+            <a href="#">LinkedIn</a>
+        </div>
+    </footer>
+</body>
+</html>
